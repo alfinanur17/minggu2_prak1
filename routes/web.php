@@ -19,3 +19,7 @@ Route::get('/', function () {
 Route::get('/', function () {
     echo "Selamat Datang";
 });
+Route::get('/about', function () {
+    echo "Nama : Alfina Nur A";
+    echo "NIM : 2031710064";
+});
