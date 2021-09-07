@@ -23,3 +23,6 @@ Route::get('/about', function () {
     echo "Nama : Alfina Nur A";
     echo "NIM : 2031710064";
 });
+Route::get('/articel', function ($id='1') {
+    echo "Halaman articel 1";
+});
