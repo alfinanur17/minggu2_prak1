@@ -24,5 +24,5 @@ Route::get('/about', function () {
     echo "NIM : 2031710064";
 });
 Route::get('/articel/{id}', function ($id) {
-    echo "Halaman articel 1" . $id;
+    echo "Halaman articel " . $id;
 });
